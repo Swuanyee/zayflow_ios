@@ -1,0 +1,25 @@
+# Demo Product Images
+
+ZayFlow bundles City Mall Myanmar's 320 x 320 primary listing image for 15 demo products so the catalogue remains available offline. Images were acquired on 2026-07-23 by exact `source.product_id`, stripped of metadata, and stored as `Product-<SKU>` asset-catalog entries.
+
+These are third-party product images intended for internal demonstration. Public availability does not grant redistribution rights. Confirm permission from City Mall, the marketplace seller, or the relevant rights holder before distributing them outside an approved demo build.
+
+| SKU | City Mall product ID | Source image | Bundled SHA-256 |
+| --- | --- | --- | --- |
+| `DEMO-RICE-001` | `cmhl_1000000388506_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h27/hf4/9348689788958/320Wx320H_Default-WorkingFormat_null) | `56865cc71fd431de464a4edb2c273ab391228e562263ba1ba69a6ba7682ea0fb` |
+| `DEMO-NOODLE-001` | `cmhl_1000000344087_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h66/h70/9034903486494/cmhl_1000000344087_1_hero.jpg_Default-WorkingFormat_320Wx320H) | `cc8cd207dacf22731703d40c8d20a65d83b81f624438dcfceeeaef9b3f79eae2` |
+| `DEMO-OIL-001` | `cmhl_1000000270170_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h2c/haa/9381629427742/320Wx320H_Default-WorkingFormat_null) | `ff065dc9e9373fe8aa9d1e532faee959a9578a6d5518f608b0a148499384b4f9` |
+| `DEMO-COFFEE-001` | `cmhl_1000000367489_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/he6/h31/9233214734366/320Wx320H_Default-WorkingFormat_null) | `562a70ec985631bc60926092305a9e01be37088f43e3f82a853421c38ffd96c7` |
+| `DEMO-MALT-001` | `cmhl_1000000373160_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/hff/hbc/9463917576222/320Wx320H_Default-WorkingFormat_null) | `7dec14af7fefafe7bb06d94462d270985d1946b7ccff0ad52ff4ac4fad7d7f1e` |
+| `DEMO-MILK-001` | `cmhl_1000000384628_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/ha4/h6b/9270449995806/320Wx320H_Default-WorkingFormat_null) | `c8fffb1f79106da20cde51c4505e168f9a106c3013b70ad0c90164b3f2c433e0` |
+| `DEMO-CHICKEN-001` | `cmhl_1000000348975_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h59/h4e/9250802597918/320Wx320H_Default-WorkingFormat_null) | `727a2b8e91e6ee3bcc6c032228b4c09b88ba65c59a1f1261cb38cc26b55ec9cb` |
+| `DEMO-SNACK-001` | `candyland_5555591800001_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h00/h8a/9475848962078/320Wx320H_Default-WorkingFormat_null) | `1e20a82c679bfcf6e3ad5ee60f6d3b9b6561f6140a422d27f7eed37afdd2c113` |
+| `DEMO-DETERGENT-001` | `cmhl_1000000394597_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h21/h20/9475840704542/320Wx320H_Default-WorkingFormat_null) | `728cc530fa0124eb675d949f0253e5c39cefcda03601787ad32151a7dabd1aab` |
+| `DEMO-DETERGENT-002` | `purezone_5555587600011_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h2e/h1a/9477586059294/320Wx320H_Default-WorkingFormat_null) | `71ad377774602b3b0d5489d5a2bf293bbec69fe7fcd065cf6003a465a37556b9` |
+| `DEMO-BLEACH-001` | `glamdust_5555543800048_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h33/h5b/9409853554718/320Wx320H_Default-WorkingFormat_null) | `f68c571e5e54e3df7b97266f8823f1fdf1f8ccbdff7e3929f44e32653e1c7627` |
+| `DEMO-HAIR-001` | `beautyc_5555528500057_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/hbe/h84/9479952465950/320Wx320H_Default-WorkingFormat_null) | `3f51281ed5195bc99d341b21b61413b8f275e194a3f5ef06f739f90619e6e80a` |
+| `DEMO-BODY-001` | `yoeyar_5555513600004_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/h5e/h6b/9250115125278/320Wx320H_Default-WorkingFormat_null) | `0b9fe01f704052d5b05037a0ced478352c97adb9046e57da776544168fa7c045` |
+| `DEMO-TOOTHPASTE-001` | `cmhl_1000000406089_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/hdf/hbb/9371871608862/320Wx320H_Default-WorkingFormat_null) | `69d38105db9ee3a06ecbda7c6dd77109053af442cc55fdd44185284d9413c6f9` |
+| `DEMO-DIAPER-001` | `babyangel_5555591200005_1` | [320 x 320](https://cmhlprodblobstorage1.blob.core.windows.net/sys-master-cmhlprodblobstorage1/ha0/h3f/9474027946014/320Wx320H_Default-WorkingFormat_null) | `eb7df150c072fc8ff747a6b3e31e731541e5b68571111fe316b31312b79d3330` |
+
+`DEMO-EGGS-001` (`cmhl_1000000002202_1`) remains in City Mall's sitemap, but its product page returns 404 and exact-ID search returns no product. ZayFlow therefore uses the existing Dairy and Eggs category symbol rather than substituting an unrelated image.

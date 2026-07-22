@@ -1,0 +1,39 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user and build state
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.moved-aside
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# SwiftPM build artifacts
+ios/ZayFlowCore/.build/
+.swiftpm/
+Package.resolved
+
+# App/build outputs
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+
+# Local runtime data
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
