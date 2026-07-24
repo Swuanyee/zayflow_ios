@@ -17,7 +17,7 @@ struct ReportsView: View {
                 }
 
                 LazyVGrid(columns: columns, spacing: 14) {
-                    reportMetric("Sales today", "0 Ks", "chart.line.uptrend.xyaxis", ZayFlowTheme.brand)
+                    reportMetric("Sales today", model.salesToday.displayString, "chart.line.uptrend.xyaxis", ZayFlowTheme.brand)
                     reportMetric("Stock value", model.stockValue.displayString, "cube.box.fill", .indigo)
                     reportMetric("Products", "\(model.products.count)", "square.grid.2x2.fill", .blue)
                     reportMetric("Needs attention", "\(model.lowStockProducts.count)", "exclamationmark.triangle.fill", ZayFlowTheme.warning)

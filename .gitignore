@@ -5,6 +5,7 @@
 # Xcode user and build state
 .build/
 DerivedData/
+ios/.deriveddata-*/
 *.xcuserstate
 xcuserdata/
 *.xcscmblueprint

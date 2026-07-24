@@ -15,6 +15,7 @@
 		26A56890F0E87B55D3AA8EF9 /* CartPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9785F5EF9FD3C8D3047E37 /* CartPanel.swift */; };
 		390875A0E552D4ACEDC6CE16 /* DatabaseKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1B20106395666E1C486B0 /* DatabaseKeyStore.swift */; };
 		6B9A2BA2AF1C23618311C605 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE3E10093D29E490CC0D90 /* RootView.swift */; };
+		7CA046BFD510ECC48E1DEAAF /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FE5F03218B33CB2CEFE3E /* AuthSession.swift */; };
 		7CAE4EE9C4E73E037C8323FF /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A35F4C8FAF18ED98FF201F /* AppDatabase.swift */; };
 		7CC138A371AAD04F86FF68AF /* ZayFlowCore in Frameworks */ = {isa = PBXBuildFile; productRef = 45FD4F68493A1C193141DC33 /* ZayFlowCore */; };
 		805FEBFC34FF43EEEB49822C /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA0583DB7B60C10960270FC /* ActivityView.swift */; };
@@ -26,7 +27,10 @@
 		B60C89D7962E67173654E3DB /* ZayFlowCore in Frameworks */ = {isa = PBXBuildFile; productRef = BB69F07A3D755FDBE9941265 /* ZayFlowCore */; };
 		BD9A7CAD62048369065F11AF /* CheckoutFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419FE8EEB12D0218BE8D146E /* CheckoutFlowView.swift */; };
 		C0557100CD6C14A4946EB6AF /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA5D04B1860C208D48CD32 /* MoreView.swift */; };
+		C1313B829EB5175EBC372049 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28CF72513F86347B3F423D /* SignInView.swift */; };
 		C432BD1D0E118684D2BF28A5 /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1182CA2ACCDE6AA42EF32 /* StockView.swift */; };
+		C72A7334FDF61FCD08657070 /* OrganisationDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D32A861D9E18D6DECC2A8 /* OrganisationDashboardView.swift */; };
+		C832DE6212B6AEE7DD17CFB9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2D0ACEF1C947D6A187A7 /* AuthService.swift */; };
 		D95493F8F2E0E5B87C598FA2 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B115713D550A30E5D6B370 /* AppModel.swift */; };
 		E73913117E91410C32ED3EDF /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2734CABDD5F7D41616097B /* ReportsView.swift */; };
 		F59EE7AE0738D711F9503943 /* ZayFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A30BFDCA4F2B0284818E00 /* ZayFlowApp.swift */; };
@@ -52,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		0677DE0BD41F7781FD503A3E /* CheckoutFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFlowUITests.swift; sourceTree = "<group>"; };
+		076FE5F03218B33CB2CEFE3E /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
 		0AE93A7F4E0D4980450C150D /* AppDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabaseTests.swift; sourceTree = "<group>"; };
 		0D30A82303500ED88A5EE8BD /* ZayFlowTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ZayFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2252654EA23D7CA7A15A041A /* SellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellView.swift; sourceTree = "<group>"; };
@@ -59,8 +64,10 @@
 		54B115713D550A30E5D6B370 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		5FB1B20106395666E1C486B0 /* DatabaseKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseKeyStore.swift; sourceTree = "<group>"; };
 		6BE1C4D62A79781E316D371F /* AppDatabase+Sales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDatabase+Sales.swift"; sourceTree = "<group>"; };
-		6EE1B98C8D83C5B035BA1039 /* ZayFlowCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ZayFlowCore; path = ZayFlowCore; sourceTree = SOURCE_ROOT; };
+		6EE1B98C8D83C5B035BA1039 /* ZayFlowCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ZayFlowCore; sourceTree = SOURCE_ROOT; };
+		7C28CF72513F86347B3F423D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		7D9785F5EF9FD3C8D3047E37 /* CartPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPanel.swift; sourceTree = "<group>"; };
+		806A2D0ACEF1C947D6A187A7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		81BA5D04B1860C208D48CD32 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		85854626536BD65B9D9D88C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85A61247743402F160005936 /* SaleModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleModels.swift; sourceTree = "<group>"; };
@@ -68,8 +75,9 @@
 		8F4DF772FDBD280D3CB4C401 /* GRDB.swift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GRDB.swift; path = Vendor/GRDB.swift; sourceTree = SOURCE_ROOT; };
 		93A35F4C8FAF18ED98FF201F /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
 		97DE3E10093D29E490CC0D90 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A80D32A861D9E18D6DECC2A8 /* OrganisationDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationDashboardView.swift; sourceTree = "<group>"; };
 		BCA0583DB7B60C10960270FC /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
-		C26E178ECC1073B9BC5CDE18 /* ZayFlow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZayFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26E178ECC1073B9BC5CDE18 /* ZayFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZayFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB042628A1D439BE94FBD4F6 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		D6A30BFDCA4F2B0284818E00 /* ZayFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayFlowApp.swift; sourceTree = "<group>"; };
 		DDB997317AFAAD0E93E9857E /* AtomicCheckoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicCheckoutTests.swift; sourceTree = "<group>"; };
@@ -181,6 +189,7 @@
 			children = (
 				DFD57171A96E260E4CF390B8 /* Activity */,
 				01493931004C29E9CCF3F2C5 /* More */,
+				FD8718BAE00F77D771782E5F /* Organisation */,
 				3406C10933CD6A85D92B2639 /* Payments */,
 				61CFD556A5F38FAE4860615C /* Reports */,
 				820770569F2FAB61CB576EE9 /* Sell */,
@@ -260,6 +269,8 @@
 			isa = PBXGroup;
 			children = (
 				54B115713D550A30E5D6B370 /* AppModel.swift */,
+				806A2D0ACEF1C947D6A187A7 /* AuthService.swift */,
+				076FE5F03218B33CB2CEFE3E /* AuthSession.swift */,
 				D6A30BFDCA4F2B0284818E00 /* ZayFlowApp.swift */,
 			);
 			path = App;
@@ -269,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				97DE3E10093D29E490CC0D90 /* RootView.swift */,
+				7C28CF72513F86347B3F423D /* SignInView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -297,6 +309,14 @@
 				85A61247743402F160005936 /* SaleModels.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		FD8718BAE00F77D771782E5F /* Organisation */ = {
+			isa = PBXGroup;
+			children = (
+				A80D32A861D9E18D6DECC2A8 /* OrganisationDashboardView.swift */,
+			);
+			path = Organisation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,9 +398,6 @@
 						DevelopmentTeam = "";
 						TestTargetID = C71391D912F14D9CCCF6D127;
 					};
-					C71391D912F14D9CCCF6D127 = {
-						DevelopmentTeam = "";
-					};
 				};
 			};
 			buildConfigurationList = EBCE47B71EAB5649F7ED28B7 /* Build configuration list for PBXProject "ZayFlow" */;
@@ -437,15 +454,19 @@
 				F896F06F42CD3FC877E5D806 /* AppDatabase+Sales.swift in Sources */,
 				7CAE4EE9C4E73E037C8323FF /* AppDatabase.swift in Sources */,
 				D95493F8F2E0E5B87C598FA2 /* AppModel.swift in Sources */,
+				C832DE6212B6AEE7DD17CFB9 /* AuthService.swift in Sources */,
+				7CA046BFD510ECC48E1DEAAF /* AuthSession.swift in Sources */,
 				9726D669F24004B4F80A3369 /* BarcodeScannerView.swift in Sources */,
 				26A56890F0E87B55D3AA8EF9 /* CartPanel.swift in Sources */,
 				BD9A7CAD62048369065F11AF /* CheckoutFlowView.swift in Sources */,
 				390875A0E552D4ACEDC6CE16 /* DatabaseKeyStore.swift in Sources */,
 				C0557100CD6C14A4946EB6AF /* MoreView.swift in Sources */,
+				C72A7334FDF61FCD08657070 /* OrganisationDashboardView.swift in Sources */,
 				E73913117E91410C32ED3EDF /* ReportsView.swift in Sources */,
 				6B9A2BA2AF1C23618311C605 /* RootView.swift in Sources */,
 				B2730276A8F63D199616564D /* SaleModels.swift in Sources */,
 				951C117272DF215C8B30EDE2 /* SellView.swift in Sources */,
+				C1313B829EB5175EBC372049 /* SignInView.swift in Sources */,
 				C432BD1D0E118684D2BF28A5 /* StockView.swift in Sources */,
 				F59EE7AE0738D711F9503943 /* ZayFlowApp.swift in Sources */,
 				A9F52C9EAED0447640EB7C12 /* ZayFlowTheme.swift in Sources */,
@@ -539,10 +560,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W2UUXJGN94;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ZayFlow;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "ZayFlow uses the camera to scan product barcodes.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ZayFlow connects to the local development server during testing.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -615,10 +639,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W2UUXJGN94;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ZayFlow;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "ZayFlow uses the camera to scan product barcodes.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ZayFlow connects to the local development server during testing.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

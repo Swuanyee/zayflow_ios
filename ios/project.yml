@@ -33,6 +33,8 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: ZayFlow
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.business
         INFOPLIST_KEY_NSCameraUsageDescription: ZayFlow uses the camera to scan product barcodes.
+        INFOPLIST_KEY_NSLocalNetworkUsageDescription: ZayFlow connects to the local development server during testing.
+        INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads: YES
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight

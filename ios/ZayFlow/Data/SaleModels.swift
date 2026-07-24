@@ -33,6 +33,13 @@ struct CheckoutRequest: Equatable, Sendable {
     let amountTendered: Money
 }
 
+struct CheckoutContext: Equatable, Sendable {
+    let organizationId: UUID
+    let shopId: UUID
+    let userId: UUID
+    let deviceId: UUID
+}
+
 struct CompletedSaleLine: Equatable, Codable, Sendable, Identifiable {
     let id: UUID
     let productName: String
@@ -61,6 +68,7 @@ struct SaleSummary: Equatable, Sendable, Identifiable {
     let paymentMethod: PaymentMethod
     let itemCount: Int
     let status: String
+    let shopCode: String?
 }
 
 enum CheckoutError: Error, Equatable, LocalizedError {
